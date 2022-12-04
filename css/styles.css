@@ -1,6 +1,12 @@
 
 /* - Global styles */
 
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 :root {
     --dark-navy-clr: #2E2F42;
     --gray-navy-clr: #434455;
