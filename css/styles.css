@@ -23,14 +23,34 @@ body {
     /* height: 100%; */
 }
 
+.container {
+    width: 1128px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.center {
+    align-items: center;
+}
+
 
 
 /* - --- Header */
 
 .header {
+    display: flex;
+    justify-content: center;
+    padding: 24px 0;
     /* height: 72px;
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
     padding: 24px 0; */
+}
+
+.nav-menu {
+    display: flex;
+    padding: 0;
+    justify-content: space-between;
 }
 
 .logo {
@@ -51,6 +71,10 @@ body {
 
 .nav-list {
     list-style-type: none;
+    gap: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
     /* padding: 0px;
     gap: 40px; */
 }
@@ -74,6 +98,10 @@ body {
 
 .header-conts {
     list-style-type: none;
+    gap: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
 }
 
 .tel-mail {
@@ -96,6 +124,7 @@ body {
 
 .hero {
     background: var(--dark-navy-clr);
+    padding: 192px;
 }
 
 .hero-text {
@@ -118,6 +147,7 @@ body {
     color: var(--pure-white-clr);
     font-family: 'Roboto', sans-serif;
     cursor: pointer;
+    padding: 16px 32px;
 }
 
 .order-btn:hover {
