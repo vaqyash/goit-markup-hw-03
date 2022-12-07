@@ -64,10 +64,6 @@ body {
     justify-content: center;
 }
 
-.no-top-padding {
-    padding-top: 0;
-}
-
 .sect-header {
     text-align: center;
     font-weight: 600;
@@ -86,7 +82,7 @@ body {
     margin: 0;
     padding: 0;
     flex-wrap: wrap;
-    column-gap: 24px;
+    /* column-gap: 24px; */
     row-gap: 48px;
 }
 
@@ -321,9 +317,13 @@ body {
 
 /* --- Portfolio Styles --- */
 
+.port-top-padding {
+    padding-top: 96px;
+}
+
 .filter-box {
-    margin: 0;
-    padding: 96px 0 72px 0;
+    margin: 0 0 72px 0;
+    padding: 0;
     display: flex;
     justify-content: center;
 }
@@ -367,7 +367,7 @@ body {
     border: 0.5px solid #F4F4FD;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
     margin: 0;
-    padding 0;
+    padding: 0;
 }
 
 .port-item-textbox {
