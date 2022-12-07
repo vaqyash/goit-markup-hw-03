@@ -28,13 +28,14 @@ body {
 
 .container {
     width: 1158px;
-    display: flex;
-    justify-content: space-between;
-    padding: 0;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 
-.center {
-    justify-content: center;
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    /* justify-content: center; */
 }
 
 .column {
@@ -74,8 +75,8 @@ body {
     line-height: 1.1111;
     letter-spacing: 0.02em;
     color: var(--dark-navy-clr);
-    margin: 0;
-    padding: 0 0 72px 0;
+    margin: 0 0 72px 0;
+    padding: 0;
 }
 
 .sect-card-list {
@@ -365,13 +366,15 @@ body {
 .port-item {
     border: 0.5px solid #F4F4FD;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
-    }
+    margin: 0;
+    padding 0;
+}
 
 .port-item-textbox {
-    display: flex;
-    flex-direction: column;
-    margin: 32px 0;
-    padding: 0 0 0 16px;
+    /* display: flex;
+    flex-direction: column; */
+    margin: 0;
+    padding: 32px 0 32px 16px;
 }
 
 .port-item-noimg {
