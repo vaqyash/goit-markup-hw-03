@@ -287,6 +287,10 @@ body {
 
 /* WeDoing Section Styles */
 
+.no-top-padding {
+    padding-top: 0;
+}
+
 
 /* Team Section Styles */
 
